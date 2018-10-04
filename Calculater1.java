@@ -9,12 +9,12 @@ public class Calculater1{
     public static void main(String [] args) {
         
         
-        //* Creates scanner object*//
+        //* Creates scanner object
         
         Scanner input= new Scanner(System.in);
         
 
-//* Declaracion de variables *//
+//* Declaracion de variables 
         
         int a=0;
         int b=0;
