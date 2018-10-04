@@ -53,7 +53,7 @@ public class Calculater1{
         int Multiplicacion=4;
         int divcio=5;
         
-        //* Does action depending on what have choosen 
+        //* Does action depending on what the user  have choosen 
         if (operation==Suma){
             
             c=a+b;
@@ -91,7 +91,7 @@ public class Calculater1{
                    x=2;
             }
           
-            //* The exception or error will be catch by using this statement 
+            //* The exception or error will be catch by using this statement
             catch (Exception e)
             
             {
@@ -99,7 +99,7 @@ public class Calculater1{
                 System.out.println("El nuero ingresado no es valido favor ingrese otro");
                 
             }
-            //* Loop
+            //* Loop  body 
             do{
                 //* Statement that may cause an exception
                 try{
@@ -113,13 +113,13 @@ public class Calculater1{
         x=2;
         
                 }
-                //* The exception or error will be catch by using this statement
+                //* The exception or the  error will be catch by using this statement
                 catch (Exception e){
                 
                     System.out.println("Try again");
                 
                 }
-                //* Loop ends
+                //* Loop will repeat the  action as long as the result equal to 1 
             }while (x==1);
         
             
