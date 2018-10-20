@@ -21,7 +21,7 @@ public class NewMainContador {
         beat=sc.nextInt();
         
         
-        cont.incrementar();
+        contd.incrementar();
        
         
         System.out.print(Contador.getCont);
@@ -29,7 +29,10 @@ public class NewMainContador {
         
         System.out.print("Introduzca otro Valor");
         
-        cont.decrementar();
+        beat=sc.nextInt();
+        
+        
+        contd.decrementar();
         
         System.out.print(Contador.getCont);
         
