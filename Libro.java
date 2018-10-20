@@ -4,6 +4,11 @@ public class Libro {
     
     
      /*atributos */
+    public class Libro {
+    
+    
+    
+     /*atributos */
     int ISBN;
      String titulo;
      String autor;
@@ -12,12 +17,12 @@ public class Libro {
      
     
      
-    public Libro(int ISBN, String Titulo, String Autor, int pNumPaginas){
+    public Libro(int ISBN, String Titulo, String Autor, int NumPaginas){
      
         
         this.ISBN=ISBN;
         this.autor=Autor;
-        this.numPaginas=numPaginas;
+        this.numPaginas=NumPaginas;
         
      
     }
@@ -67,6 +72,7 @@ public class Libro {
         System.out.println ("El libro "+titulo+" con Isbn " + ISBN+"");
         System.out.println(" creado por el autor " + autor+ "" );
         System.out.println(" creado por el autor " + numPaginas + "" );
+        return null;
         
     }
         
@@ -74,6 +80,7 @@ public class Libro {
         
                 
 }
+
 
 
 
